@@ -106,7 +106,11 @@ body {
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 10px;
-  background-color: #000;
+  background-image: url('JeanBackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 }
 
 td.date {
@@ -139,11 +143,4 @@ h4 {
   width: 100%;
   align-self: center;
   font-family: 'Helvetica';
-}
-
-.schedbox {
-  background-image: url('JeanBackground.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
 }
