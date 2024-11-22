@@ -143,4 +143,7 @@ h4 {
 
 .schedbox {
   background-image: url('JeanBackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
