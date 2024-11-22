@@ -140,3 +140,7 @@ h4 {
   align-self: center;
   font-family: 'Helvetica';
 }
+
+.schedbox {
+  background-image: url('JeanBackground.jpg');
+}
