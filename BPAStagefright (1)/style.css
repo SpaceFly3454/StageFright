@@ -118,6 +118,11 @@ td.date {
   padding-bottom: 10px;
 }
 
+.scheduletable th {
+  font-size: 25px;
+  text-align: justify;
+}
+
 .triangle-down-left 
 .footer {
   z-index: 0;
