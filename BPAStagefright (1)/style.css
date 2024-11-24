@@ -148,3 +148,17 @@ h4 {
   align-self: center;
   font-family: 'Helvetica';
 }
+
+h2 {
+  font-family: 'good times';
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'good times';
+  font-size: 20px;
+}
+
+p {
+  font-family: 'good times';
+  font-size: 10px;
