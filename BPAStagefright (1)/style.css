@@ -3,6 +3,7 @@ html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'good times';
 }
 
 a {
@@ -134,8 +135,8 @@ td.date {
 }
 
 h4 {
-  font-family: 'Helvetica';
-  font-size: 12px;
+  font-family: 'good times';
+  font-size: 20px;
   color: #000;
   position: absolute;
   text-align: center;
@@ -151,14 +152,14 @@ h4 {
 
 h2 {
   font-family: 'good times';
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3 {
   font-family: 'good times';
-  font-size: 20px;
+  font-size: 30px;
 }
 
 p {
   font-family: 'good times';
-  font-size: 10px;
+  font-size: 15px;
