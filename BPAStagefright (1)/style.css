@@ -96,6 +96,7 @@ text-align: center;
 position: relative;
 z-index: 3;
 font-family: 'Good Times';
+box-shadow: 1vw 1vw #CFCFCF;
 }
 
 .navbar a::before {
@@ -114,7 +115,7 @@ transition: transform 0.5s ease, background color 0.5s ease;
 
 .navbar a:hover::before {
 transform: skew(-20deg) scale(1.25);
-background-color: #636363;
+background-color: #EEEEEE;
 color: #151515;
 }
 
