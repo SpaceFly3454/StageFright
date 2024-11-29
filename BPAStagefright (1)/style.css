@@ -151,7 +151,7 @@ color: black;
   z-index: 1;
   font-family: 'Good Times';
   color: #151515;
-  font-size: 60px;
+  font-size: 3.75vw;
   position: absolute;
   width: 95%;
   text-align: right;
@@ -213,7 +213,7 @@ color: black;
 
 .scheduletable {
   width: 90%;
-  padding-top: 5%;
+  padding-top: 8%;
   margin-left: 5%;
   margin-right: 5%;
 }
