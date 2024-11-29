@@ -1,6 +1,4 @@
 html {
-  height: 100%;
-  width: 100%;
   max-width: 100%;
   overflow-x: hidden;
   font-family: 'good times';
@@ -11,6 +9,47 @@ a {
   text-decoration: unset;
 }
 
+h1 {
+  font-family: 'good times';
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'good times';
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'good times';
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'good times';
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: 'good times';
+  font-size: 15px;
+}
+
+.whiteBackground {
+  background-color: #F0F0F0;
+  width: 100%;
+  height: 140vh;
+  z-index: -1;
+}
+
+.blackBackground {
+  background-color: #151515;
+  width: 100%;
+  height: 140vh;
+  z-index: 0;
+}
+
+
 @font-face {
   font-family: 'Good Times';
   src: url('Fonts/good_times/good\ times\ rg.otf') format('opentype');
@@ -19,6 +58,10 @@ a {
 body {
   border-radius: 0px;
   margin: 0;
+}
+
+.skew {
+  transform: skew(-20deg);
 }
 
 .navbar {
@@ -78,39 +121,94 @@ color: black;
 .banner {
   margin: 0px;
   background: url('Images/Concertmetallica.webp');
-  background-size: cover;
+  background-size: full;
   background-position: left;
   background-attachment: fixed;
-  height: 110vh;
-  width: 100vw;
+  height: 160vh;
+  width: 100%;
 }
 
 #SFlogo {
   display: block;
-  padding-top: 15%;
+  padding-top: 15vh;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
 
-.triangle-down-left {
+/*THE WORLD TOUR*/
+
+#worldTour {
   z-index: 0;
   width: 0;
   height: 0;
   border-top: 50vh solid transparent;
-  border-right: 100vw solid #FFF;
+  border-right: 125vw solid #F0F0F0;
   margin-top: -50vh;
 }
 
-.triangle-down-left h1 {
+#worldTour h1 {
   z-index: 1;
   font-family: 'Good Times';
-  font-size: 3.75vw;
+  color: #151515;
+  font-size: 60px;
   position: absolute;
-  width: 100%;
+  width: 95%;
   text-align: right;
-  right: 3%;
-  top: 81.5vh;
+  margin-top: -12vh;
+  margin-right: 5%;
+  
+}
+
+#worldTourBlock {
+  padding: 3vw;
+}
+
+.buyTickets h4 {
+  background-color: #151515;
+  color: #F0F0F0;
+  font-family: 'good times';
+  font-size: 20px;
+  position: none;
+  text-align: none;
+  width: 50%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+
+/*NEW MERCH SHOP*/
+
+#newMerch {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-top: 50vh solid transparent;
+  border-left: 125vw solid #151515;
+  margin-top: -50vh;
+}
+
+/*#newMerch h1 {
+  z-index: 2;
+  color: #F0F0F0;
+  position: absolute;
+  width: 95%;
+  text-align: left;
+  margin-top: -12vh;
+  margin-left: 5%;
+}*/
+
+.NewMerch h1 {
+  z-index: 2;
+  color: #F0F0F0;
+  position: absolute;
+  width: 95%;
+  text-align: left;
+  margin-top: -24vh;
+  margin-left: 5%;
 }
 
 .scheduletable {
@@ -122,7 +220,7 @@ color: black;
 
 .scheduletable td {
   font-family: 'Good Times';
-  color: #FFF;
+  color: #F0F0F0;
   font-size: 20px;
   line-height: 200%;
   width: 28%;
@@ -145,20 +243,24 @@ td.date {
   font-size: 25px;
 }
 
-.triangle-down-left 
 .footer {
-  z-index: 0;
+  z-index: 1;
   width: 0;
   height: 0;
-  border-top: 320px solid transparent;
-  border-right: 1520px solid #000;
-  margin-bottom: -320px;
+  border-top: 50vh solid transparent;
+  border-left: 125vw solid #151515;
+  margin-top: -50vh;
 }
 
-h4 {
+.footer .socialmedia {
+  background-color: #151515;
+}
+
+.footer h4 {
   font-family: 'good times';
   font-size: 20px;
-  color: #000;
+  color: #F0F0F0;
+  background-color: #151515;
   position: absolute;
   text-align: center;
   width: 100%;
@@ -169,18 +271,251 @@ h4 {
   width: 100%;
   align-self: center;
   font-family: 'Helvetica';
+  color: #F0F0F0;
+  background-color: #151515;
 }
 
-h2 {
-  font-family: 'good times';
-  font-size: 40px;
+table.newMerchShop {
+  z-index: 0;
+  width: 96%;
+  border: none;
+  padding: none;
+  margin: none;
 }
 
-h3 {
-  font-family: 'good times';
-  font-size: 30px;
+/*BLACK SHIRT*/
+
+.newMerchShop .BlackTShirt {
+  width: 90%;
+  height: auto;
+  padding: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
 }
 
-p {
+.addToCart .BlackTShirt {
+  display: none;
+}
+
+.newMerchShop:hover + .addToCart .BlackTShirt {
+  display: block;
+  border: none;
+  padding: none;
+  margin: none;
+  width: 4%;
+  z-index: 4;
+  position: absolute;
+  left: 12.5vw;
+  margin-top: -10vh;
+}
+
+.BlackTShirt {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/*MAROON SHIRT*/
+
+.newMerchShop .MaroonTShirt {
+  width: 90%;
+  height: auto;
+  padding: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+}
+
+.addToCart .MaroonTShirt {
+  display: none;
+}
+
+.newMerchShop:hover + .addToCart .MaroonTShirt {
+  display: block;
+  border: none;
+  padding: none;
+  margin: none;
+  width: 4%;
+  z-index: 4;
+  position: absolute;
+  left: 31vw;
+  margin-top: -10vh;
+}
+
+.MaroonTShirt {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/*NAVY SHIRT*/
+
+.newMerchShop .NavyTShirt {
+  width: 90%;
+  height: auto;
+  padding: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+}
+
+.addToCart .NavyTShirt {
+  display: none;
+}
+
+.newMerchShop:hover + .addToCart .NavyTShirt {
+  display: block;
+  border: none;
+  padding: none;
+  margin: none;
+  width: 4%;
+  z-index: 4;
+  position: absolute;
+  left: 49.75vw;
+  margin-top: -10vh;
+}
+
+.NavyTShirt {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/*RED SHIRT*/
+
+.newMerchShop .RedTShirt {
+  width: 90%;
+  height: auto;
+  padding: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+}
+
+.addToCart .RedTShirt {
+  display: none;
+}
+
+.newMerchShop:hover + .addToCart .RedTShirt {
+  display: block;
+  border: none;
+  padding: none;
+  margin: none;
+  width: 4%;
+  z-index: 4;
+  position: absolute;
+  left: 68.5vw;
+  margin-top: -10vh;
+}
+
+.RedTShirt {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/*MIDNIGHT SHIRT*/
+
+.newMerchShop .MidnightTShirt {
+  width: 90%;
+  height: auto;
+  padding: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+}
+
+.addToCart .MidnightTShirt {
+  display: none;
+}
+
+.newMerchShop:hover + .addToCart .MidnightTShirt {
+  display: block;
+  border: none;
+  padding: none;
+  margin: none;
+  width: 4%;
+  z-index: 4;
+  position: absolute;
+  left: 87vw;
+  margin-top: -10vh;
+}
+
+.MidnightTShirt {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+/*SHOP BUTTON*/
+
+.sendToShop h4 {
   font-family: 'good times';
-  font-size: 15px;
+  font-size: 20px;
+  background-color: #F0F0F0;
+  color: #151515;
+  position: none;
+  text-align: none;
+  width: 50%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#meetTheBand {
+  z-index: 0;
+  width: 0;
+  height: 0;
+  border-top: 50vh solid transparent;
+  border-right: 125vw solid #F0F0F0;
+  margin-top: -50vh;
+}
+
+#meetTheBand h1 {
+  z-index: 1;
+  font-family: 'Good Times';
+  color: #151515;
+  font-size: 60px;
+  position: absolute;
+  width: 95%;
+  text-align: right;
+  margin-top: -12vh;
+  margin-right: 5%;
+}
+
+table.bandMemberPictures {
+  width: 100%;
+}
+
+.bandMemberPictures tr {
+  width: 100%;
+}
+
+.bandMemberPictures td {
+  width: 25%;
+}
+
+#armond {
+  width: 20vw;
+  padding-left: 4.5vw;
+  padding-right: 2vw;
+}
+
+#jace {
+  width: 20vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#landon {
+  width: 20vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#brandon {
+  width: 20vw;
+  padding-left: 2vw;
+  padding-right: 4.5vw;
+}
+
+.bandMemberNames {
+  text-align: center;
+}
