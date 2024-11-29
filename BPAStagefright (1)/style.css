@@ -96,7 +96,7 @@ text-align: center;
 position: relative;
 z-index: 3;
 font-family: 'Good Times';
-filter: drop-shadow( 0.5vw -0.5vw 0px 11vh #CFCFCF);
+filter: drop-shadow( 0.5vw -0.5vw 1px 11vh #CFCFCF);
 }
 
 .navbar a::before {
