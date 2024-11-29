@@ -57,11 +57,11 @@ body {
 .banner {
   margin: 0px;
   background: url('Images/Concertmetallica.webp');
-  background-size: full;
+  background-size: cover;
   background-position: left;
   background-attachment: fixed;
-  height: 1040px;
-  width: 100%;
+  height: 110vh;
+  width: 100vw;
 }
 
 #SFlogo {
@@ -76,20 +76,20 @@ body {
   z-index: 0;
   width: 0;
   height: 0;
-  border-top: 320px solid transparent;
-  border-right: 1520px solid #FFF;
-  margin-top: -320px;
+  border-top: 50vh solid transparent;
+  border-right: 100vw solid #FFF;
+  margin-top: -50vh;
 }
 
 .triangle-down-left h1 {
   z-index: 1;
   font-family: 'Good Times';
-  font-size: 60px;
+  font-size: 3.75vw;
   position: absolute;
   width: 100%;
   text-align: right;
   right: 3%;
-  top: 870px;
+  top: 81.5vh;
 }
 
 .scheduletable {
