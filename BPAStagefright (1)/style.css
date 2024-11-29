@@ -21,37 +21,58 @@ body {
   margin: 0;
 }
 
-.Navbar {
-  position: fixed;
-  z-index: 100;
-  width: 90%;
-  height: 5%;
-  font-family: 'Good Times';
-  margin-left: 5%;
-  margin-right: 5%;
+.navbar {
+background-color: rgba(51, 51, 51, 0.05);
+padding: 3vh 3vh;
+position: absolute;
+width: 100vw;
+height: 11vh;
+z-index: 0;
 }
 
-.Navbar tr {
-  font-size: 13px;
-  font-weight: 40;
-  background-color: #FFF;
-  text-align: center;
-  transform: skew(-20deg);
+.navbar ul {
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
 }
 
-.Navbar td {
-  transform: skew(20deg);
-  width: 18%;
+.navbar li {
+margin: 0 1.3vw;
+position: relative;
 }
 
-.Navbar td:hover {
-  background-color: #000;
-  transform: skew(0deg);
-  color: #FFF;
+.navbar a {
+display: inline-block;
+text-decoration: none;
+color: white;
+padding: 3vh 5vw;
+font-size: 1vw;
+text-align: center;
+position: relative;
+z-index: 3;
+font-family: 'Good Times';
 }
 
-.Navbar td a:hover {
-  transform: skew(-0deg);
+.navbar a::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #222222;
+transform: skew(-20deg);
+z-index: -1;
+border-radius: 0.3vw;
+transition: transform 0.5s ease, background color 0.5s ease;
+}
+
+.navbar a:hover::before {
+transform: skew(-20deg) scale(1.25);
+background-color: #636363;
+color: black;
 }
 
 .banner {
