@@ -272,13 +272,14 @@ td.date {
 	font-size: 1vw;
 	text-align: center;
 	position: relative;
+	font-family: 'good times';
+	color: #F0F0F0;
 }
 
 .footer h4 {
   font-family: 'good times';
   font-size: 20px;
   color: #F0F0F0;
-  background-color: #151515;
   position: absolute;
   text-align: center;
   width: 100%;
