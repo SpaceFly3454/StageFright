@@ -278,11 +278,12 @@ td.date {
 
 .footer h4 {
   font-family: 'good times';
-  font-size: 20px;
+  font-size: 0.8vw;
   color: #F0F0F0;
   position: absolute;
   text-align: center;
   width: 100%;
+  padding-top: 0.5vh;
 }
 
 .socialmedia tr {
