@@ -244,17 +244,34 @@ td.date {
   font-size: 25px;
 }
 
+
 .footer {
-  z-index: 1;
-  width: 0;
-  height: 0;
-  border-top: 50vh solid transparent;
-  border-left: 125vw solid #151515;
-  margin-top: -50vh;
+	background-color: #151515;
+	height: 13.5vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.footer .socialmedia {
-  background-color: #151515;
+.footer ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+.footer li {
+	margin: 0 1.3vh;
+	position: relative;
+}
+
+.footer a {
+	padding: 1vw;
+	font-size: 1vw;
+	text-align: center;
+	position: relative;
 }
 
 .footer h4 {
