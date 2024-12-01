@@ -679,3 +679,8 @@ table.bandMemberPictures {
 .amount-input {
     width: 10vw
 }
+
+.store-main-h1 {
+	text-align: center;
+	top: 15vh;
+}
