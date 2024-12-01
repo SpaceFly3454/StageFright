@@ -547,4 +547,5 @@ table.bandMemberPictures {
 	display: flex;
 	justify-content: center;
 	align-self: center;
+	padding-top: 15vh;
 }
