@@ -253,6 +253,7 @@ td.date {
 	align-items: center;
 	justify-content: center;
 	bottom: 0;
+	top: -87.5%;
 }
 
 .footer ul {
