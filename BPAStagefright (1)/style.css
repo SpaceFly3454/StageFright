@@ -556,5 +556,6 @@ table.bandMemberPictures {
 
 .contact p {
 	padding: 3vh;
+	white-space: none;
 }
 
