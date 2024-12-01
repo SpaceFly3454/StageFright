@@ -265,6 +265,11 @@ td.date {
 	margin: 0;
 }
 
+.footer nav {
+	position: absolute;
+	justify-content: center;
+}
+
 .footer li {
 	margin: 0 1.3vh;
 	position: relative;
