@@ -280,7 +280,7 @@ td.date {
   font-family: 'good times';
   font-size: 0.8vw;
   color: #F0F0F0;
-  position: relative;
+  position: absolute;
   text-align: center;
   width: 100%;
   padding-top: 8.75vh;
