@@ -548,3 +548,12 @@ table.bandMemberPictures {
 	text-align: center;
 	padding-top: 15vh;
 }
+
+.contact h3 {
+	padding: 5vh;
+}
+
+.contact p {
+	padding: 3vh;
+}
+
