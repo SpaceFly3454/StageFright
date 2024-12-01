@@ -544,8 +544,7 @@ table.bandMemberPictures {
 }
 
 .contact {
-	display: flex;
-	flex-direction: column;
+	display: block;
 	text-align: center;
 	padding-top: 15vh;
 }
