@@ -259,6 +259,7 @@ td.date {
 	list-style: none;
 	display: flex;
 	justify-content: center;
+	position: absolute;
 	padding: 0;
 	margin: 0;
 }
