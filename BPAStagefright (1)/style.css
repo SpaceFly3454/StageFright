@@ -546,4 +546,5 @@ table.bandMemberPictures {
 .contact {
 	display: flex;
 	justify-content: center;
+	align-self: center;
 }
