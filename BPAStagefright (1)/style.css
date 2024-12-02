@@ -742,3 +742,27 @@ table.bandMemberPictures {
 	display: flex;
 	align-items: end;
 }
+
+.light {
+	background-color: #F0F0F0;
+	width: auto;
+	padding: 5%;
+	color: #151515;
+}
+
+.dark {
+	background-color: #151515;
+	width: auto;
+	padding: 5%;
+	color: F0F0F0;
+}
+
+.light img {
+	border-color: #151515;
+	border: 0.5%;
+}
+
+.dark img {
+	border-color: #F0F0F0;
+	border: 0.5%;
+}
