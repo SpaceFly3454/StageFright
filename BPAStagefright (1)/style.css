@@ -783,12 +783,14 @@ table.meetTheBand {
 	color: #151515;
   	border: none !important;
   	margin: none;
+	padding: 3%;
 }
 
 .dark td {
 	color: #F0F0F0;
   	border: none !important;
   	margin: none;
+	padding: 3%;
 }
 
 .lightTri {
