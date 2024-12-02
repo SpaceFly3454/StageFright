@@ -731,3 +731,7 @@ table.bandMemberPictures {
 	display: flex;
 	align-items: end;
 }
+
+div {
+	font-family: 'good times';
+}
