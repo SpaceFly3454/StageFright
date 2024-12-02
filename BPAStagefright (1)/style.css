@@ -770,6 +770,7 @@ table.meetTheBand {
 	width: auto;
 	padding: 5%;
 	height: 60vh;
+	border: 0;
 }
 
 .dark {
@@ -777,18 +778,21 @@ table.meetTheBand {
 	width: auto;
 	padding: 5%;
 	height: 60vh;
+	border: 0;
 }
 
 .light td {
 	color: #151515;
   	border: none !important;
   	margin: none;
+	border: 0;
 }
 
 .dark td {
 	color: #F0F0F0;
   	border: none !important;
   	margin: none;
+	border: 0;
 }
 
 .lightTri {
