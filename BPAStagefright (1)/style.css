@@ -755,7 +755,7 @@ table.meetTheBand {
 }
 
 .meetTheBand tr {
-  	border: 0;
+  	border: none;
   	margin: none;
   	z-index: 0;
 	border-collapse: collapse;
