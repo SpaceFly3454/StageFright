@@ -757,6 +757,17 @@ table.bandMemberPictures {
 	font-size: 10vw;
 }
 
+.purchase {
+   	font-family: 'good times';
+	color: #F0F0F0;
+ 	background-color: #00c04b;
+}
+
+.purchase:hover {
+	background-color: #008631;
+}
+	
+
 table.meetTheBand {
 	border: none;
  	margin: none;
