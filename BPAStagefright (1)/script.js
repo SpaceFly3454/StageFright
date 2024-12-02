@@ -27,6 +27,15 @@ function ready(){
         var button = additem[i]
         button.addEventListener('click', additemclick)
     }
+
+    const checkout = document.querySelector('.btn-checkout')
+    if (checkout) {
+        checkout.addEventListener('click', function() {
+            const totalcost = document.querySelector('.total').innerText.replace('$', '')
+            localStorage.setItem('totalcost', totalcost)
+            window.location.href = 'checkout.html'
+        })
+    }
 }
 
 function additemclick(event) {
@@ -86,3 +95,57 @@ function updatetotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('total')[0].innerText = '$' + total
 }
+
+const total = localStorage.getItem('totalcost')
+if (total) {
+    document.querySelector('.checkout-total').innerText = `Total: $${total}`
+}
+
+const cardInput = document.getElementById('card-number');
+const cardExpiration = document.getElementById('expiration-number');
+const cardSecurity = document.getElementById('security-number');
+const cardImage = document.getElementById('card-image');
+
+const cardTypes = {
+	"34": "amex.png",
+	"37": "amex.png",
+	"4": "visa.png",
+	"51": "mastercard.png",
+	"52": "mastercard.png",
+	"53": "mastercard.png",
+	"54": "mastercard.png",
+	"55": "mastercard.png",
+	"60": "discover.png"
+};
+
+cardExpiration.addEventListener('input', () => {
+
+	let value = cardExpiration.value.replace(/\D/g, '');
+
+	if (value.length < 4.5){
+	value = value.replace(/(.{2})/d, '$1/').trim();
+}
+
+	cardExpiration.value = value;
+});
+
+cardInput.addEventListener('input', () => {
+	
+	let value = cardInput.value.replace(/\D/g, '');
+
+	value = value.replace(/(.{4})/g, '$1 ').trim();
+
+	cardInput.value = value;
+
+
+const firstTwoNumbers = value.slice(0, 2);
+const firstNumber = value.slice(0, 1);
+
+	if (cardTypes[firstTwoNumbers]) {
+		cardImage.style.backgroundImage = `url(${cardTypes[firstTwoNumbers]})`;
+	} else if (cardTypes[firstNumber]) {
+		cardImage.style.backgroundImage = `url(${cardTypes[firstNumber]})`;
+	} else {
+		cardImage.style.backgroundImage = 'none';
+	}
+});
