@@ -106,15 +106,15 @@ const cardSecurity = document.getElementById('security-number');
 const cardImage = document.getElementById('card-image');
 
 const cardTypes = {
-	"34": "amex.png",
-	"37": "amex.png",
-	"4": "visa.png",
-	"51": "mastercard.png",
-	"52": "mastercard.png",
-	"53": "mastercard.png",
-	"54": "mastercard.png",
-	"55": "mastercard.png",
-	"60": "discover.png"
+	"34": "./Images/amex.png",
+	"37": "./Images/amex.png",
+	"4": "./Images/visa.png",
+	"51": "./Images/mastercard.png",
+	"52": "./Images/mastercard.png",
+	"53": "./Images/mastercard.png",
+	"54": "./Images/mastercard.png",
+	"55": "./Images/mastercard.png",
+	"60": "./Images/discover.png"
 };
 
 cardExpiration.addEventListener('input', () => {
