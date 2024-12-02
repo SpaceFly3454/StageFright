@@ -744,18 +744,20 @@ table.bandMemberPictures {
 	align-items: end;
 }
 
+table.meetTheBand {
+	border: none;
+}
+
 .light {
 	background-color: #F0F0F0;
 	width: auto;
 	padding: 5%;
-	color: #151515;
 }
 
 .dark {
 	background-color: #151515;
 	width: auto;
 	padding: 5%;
-	color: F0F0F0;
 }
 
 .light img {
@@ -766,4 +768,30 @@ table.bandMemberPictures {
 .dark img {
 	border-color: #F0F0F0;
 	border: 0.5%;
+}
+
+.light td {
+	color: #151515;
+}
+
+.dark td {
+	color: #F0F0F0;
+}
+
+.lightTri {
+	z-index: 0;
+	width: 0;
+	height: 0;
+	border-top: 50vh solid transparent;
+	border-right: 125vw solid #F0F0F0;
+	margin-top: -50vh;
+}
+
+darkTri {
+	z-index: 0;
+	width: 0;
+	height: 0;
+	border-top: 50vh solid transparent;
+	border-left: 125vw solid #F0F0F0;
+	margin-top: -50vh;
 }
