@@ -751,12 +751,14 @@ table.meetTheBand {
   	outline: none !important;
   	width: 100%;
 	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 .meetTheBand tr {
-  	border: none;
+  	border: 0;
   	margin: none;
   	z-index: 0;
+	border-collapse: collapse;
 }
 
 .z1 {
