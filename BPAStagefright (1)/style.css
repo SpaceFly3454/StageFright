@@ -745,7 +745,7 @@ table.bandMemberPictures {
 }
 
 table.meetTheBand {
-	border: 0 !important;
+	border: none;
  	margin: none;
  	padding: none;
   	outline: none !important;
