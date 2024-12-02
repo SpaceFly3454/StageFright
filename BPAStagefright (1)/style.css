@@ -754,13 +754,17 @@ table.bandMemberPictures {
 
 .checkout-total {
 	text-align: center;
-	font-size: 10vw;
+	font-size: 5vw;
 }
 
 .purchase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
    	font-family: 'good times';
 	color: #F0F0F0;
  	background-color: #00c04b;
+	
 }
 
 .purchase:hover {
