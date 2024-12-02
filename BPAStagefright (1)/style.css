@@ -745,11 +745,12 @@ table.bandMemberPictures {
 }
 
 table.meetTheBand {
-	border: none !important;
+	border: 0 !important;
  	margin: none;
  	padding: none;
   	outline: none !important;
   	width: 100%;
+	border-collapse: collapse;
 }
 
 .meetTheBand tr {
