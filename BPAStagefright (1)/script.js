@@ -33,7 +33,6 @@ function ready(){
         checkout.addEventListener('click', function() {
             const totalcost = document.querySelector('.total').innerText.replace('$', '')
             localStorage.setItem('totalcost', totalcost)
-            window.location.href = 'checkout.html'
         })
     }
 }
