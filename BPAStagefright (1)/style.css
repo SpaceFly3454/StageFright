@@ -600,7 +600,7 @@ table.bandMemberPictures {
 
 .add-item {
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #963131;
     font-family: 'good times';
     color: white;
     border: none;
@@ -610,7 +610,7 @@ table.bandMemberPictures {
 }
 
 .add-item:hover {
-    background-color: #0056b3;
+    background-color: #C53939;
 }
 
 .name {
@@ -714,7 +714,12 @@ table.bandMemberPictures {
 }
 
 .btn-checkout {
-    font-family: 'good times';
+   	font-family: 'good times';
+ 	background-color: #963131;
+}
+
+.btn-checkout:hover {
+	background-color: #C53939;
 }
 
 .expiration-number{
