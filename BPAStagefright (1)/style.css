@@ -751,6 +751,11 @@ table.bandMemberPictures {
   box-sizing: border-box;
 }
 
+.totalalign {
+	text-align: center;
+	font-size: 10vw;
+}
+
 table.meetTheBand {
 	border: none;
  	margin: none;
