@@ -65,7 +65,7 @@ body {
 }
 
 .navbar {
-background-color: #A9A9A9;
+background-color: none;
 padding: 3vh 3vh;
 position: fixed;
 width: 100vw;
