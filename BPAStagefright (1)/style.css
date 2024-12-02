@@ -601,6 +601,7 @@ table.bandMemberPictures {
 .add-item {
     padding: 10px 15px;
     background-color: #007BFF;
+    font-family: 'good times';
     color: white;
     border: none;
     border-radius: 5px;
@@ -659,6 +660,7 @@ table.bandMemberPictures {
 .btn-remove {
     padding: 5px 10px;
     background-color: #dc3545;
+    font-family: 'good times';
     color: white;
     border: none;
     border-radius: 3px;
@@ -711,6 +713,10 @@ table.bandMemberPictures {
 	margin-top: 15px;
 }
 
+.btn-checkout {
+    font-family: 'good times';
+}
+
 .expiration-number{
 	font-size: 0.8rem;
 	padding: 5px;
@@ -730,8 +736,4 @@ table.bandMemberPictures {
 .security{
 	display: flex;
 	align-items: end;
-}
-
-div {
-	font-family: 'good times';
 }
