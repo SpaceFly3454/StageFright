@@ -745,53 +745,89 @@ table.bandMemberPictures {
 }
 
 table.meetTheBand {
-	border: none;
+	border: none !important;
+ 	margin: none;
+ 	padding: none;
+  	outline: none !important;
+  	width: 100%;
+}
+
+.meetTheBand tr {
+  	border: none;
+  	margin: none;
+  	z-index: 0;
+}
+
+.z1 {
+  	z-index: 1;
 }
 
 .light {
 	background-color: #F0F0F0;
 	width: auto;
 	padding: 5%;
+	height: 60vh;
 }
 
 .dark {
 	background-color: #151515;
 	width: auto;
 	padding: 5%;
-}
-
-.light img {
-	border-color: #151515;
-	border: 0.5%;
-}
-
-.dark img {
-	border-color: #F0F0F0;
-	border: 0.5%;
+	height: 60vh;
 }
 
 .light td {
 	color: #151515;
+  	border: none !important;
+  	margin: none;
 }
 
 .dark td {
 	color: #F0F0F0;
+  	border: none !important;
+  	margin: none;
 }
 
 .lightTri {
-	z-index: 0;
+	z-index: 1;
 	width: 0;
 	height: 0;
-	border-top: 50vh solid transparent;
-	border-right: 125vw solid #F0F0F0;
-	margin-top: -50vh;
+	border-top: 15vh solid transparent;
+	border-right: 100vw solid #F0F0F0;
+  	margin-top: -15vh;
+  	position: absolute;
 }
 
-darkTri {
-	z-index: 0;
+.darkTri {
+	z-index: 1;
 	width: 0;
 	height: 0;
-	border-top: 50vh solid transparent;
-	border-left: 125vw solid #F0F0F0;
-	margin-top: -50vh;
+	border-top: 15vh solid transparent;
+	border-left: 100vw solid #151515;
+  	margin-top:-15vh;
+  	position: absolute;
+}
+
+#armondInfo {
+ 	width: 80%;
+  	z-index: 0;
+  	margin: 10%;
+}
+
+#jaceInfo {
+  	width: 80%;
+  	z-index: 0;
+  	margin: 10%;
+}
+
+#landonInfo {
+  	width: 80%;
+  	z-index: 0;
+  	margin: 10%;
+}
+
+#brandonInfo {
+  	width: 80%;
+  	z-index: 0;
+  	margin: 10%;
 }
