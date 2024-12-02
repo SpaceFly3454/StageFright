@@ -838,3 +838,6 @@ table.meetTheBand {
   	z-index: 0;
   	margin: 10%;
 }
+#meethead {
+	text-align: center;
+}
