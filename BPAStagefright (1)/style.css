@@ -215,11 +215,12 @@ color: #151515;
 
 .scheduleheader {
   text-align: center;
+  margin-top: 8%;
 }
 
 .scheduletable {
   width: 90%;
-  padding-top: 8%;
+  padding-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
 }
