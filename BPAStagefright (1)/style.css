@@ -867,3 +867,8 @@ table.meetTheBand {
 #meethead {
 	text-align: center;
 }
+
+.purchase {
+	width: auto;
+	margin: 40%;
+}
