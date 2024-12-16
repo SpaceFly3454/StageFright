@@ -215,13 +215,14 @@ color: #151515;
 
 .scheduleheader {
   text-align: center;
-  margin-top: 6vh;
+  margin-top: 6.5vh;
 }
 
 .scheduletable {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  border: 5vw;
 }
 
 .scheduletable td {
@@ -231,7 +232,6 @@ color: #151515;
   line-height: 200%;
   width: 28%;
   margin: 1%;
-  border: 5vw;
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 20px;
