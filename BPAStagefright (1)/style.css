@@ -222,7 +222,6 @@ color: #151515;
   padding-top: 8%;
   margin-left: 5%;
   margin-right: 5%;
-  margin: 10%;
 }
 
 .scheduletable td {
@@ -231,7 +230,7 @@ color: #151515;
   font-size: 20px;
   line-height: 200%;
   width: 28%;
-  margin: 1%;
+  margin: 3%;
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 20px;
