@@ -233,6 +233,18 @@ color: #151515;
   padding-bottom: 20px;
 }
 
+td.date {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.scheduletable th {
+  font-size: 25px;
+  text-align: center;
+}
+
 .itm1 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
