@@ -231,6 +231,7 @@ color: #151515;
   line-height: 200%;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 90vw;
 }
 
 td.date {
@@ -240,7 +241,7 @@ td.date {
   padding-bottom: 10px;
 }
 
-.scheduletable th {
+.schedulegrid th {
   font-size: 25px;
   text-align: center;
 }
