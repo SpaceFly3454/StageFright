@@ -230,20 +230,20 @@ color: #151515;
   font-size: 20px;
 }
 
-.schedulegrid td {
+.itm td {
   line-height: 200%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-td.date {
+.date {
   font-size: 15px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 10px;
 }
 
-.schedulegrid th {
+.itm th {
   font-size: 25px;
   text-align: center;
 }
