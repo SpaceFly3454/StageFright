@@ -230,6 +230,10 @@ color: #151515;
   font-size: 20px;
 }
 
+.schedheads {
+  text-align: center;
+}
+
 .itm td {
   line-height: 200%;
   padding-top: 20px;
