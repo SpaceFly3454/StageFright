@@ -257,6 +257,10 @@ color: #151515;
   width: 100%;
 }
 
+.itm {
+  border-radius: 10px;
+}
+
 .itm1 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
