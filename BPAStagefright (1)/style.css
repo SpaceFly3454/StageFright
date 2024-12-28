@@ -224,7 +224,7 @@ color: #151515;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 7px;
   font-family: 'Good Times';
   color: #F0F0F0;
   font-size: 20px;
