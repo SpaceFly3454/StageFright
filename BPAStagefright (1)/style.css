@@ -261,6 +261,7 @@ color: #151515;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -268,6 +269,7 @@ color: #151515;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -275,6 +277,7 @@ color: #151515;
   grid-column: 3 / span 1;
   grid-row: 1 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -282,6 +285,7 @@ color: #151515;
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -289,6 +293,7 @@ color: #151515;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
   padding-left: 2vw;
+  padding0right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -296,6 +301,7 @@ color: #151515;
   grid-column: 3 / span 1;
   grid-row: 2 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -303,6 +309,7 @@ color: #151515;
   grid-column: 1 / span 1;
   grid-row: 3 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -310,6 +317,7 @@ color: #151515;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
@@ -317,6 +325,7 @@ color: #151515;
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
   padding-left: 2vw;
+  padding-right: 2vw;
   background: url('Images/JeanBackground.png');
 }
 
