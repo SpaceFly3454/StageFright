@@ -691,9 +691,9 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #000;
   font-family: 'good times';
-  font-size: 16px
+  font-size: 25px;
   color: white;
-  padding: 36px 60px;
+  padding: 28px 48px;
   border-radius: 4px;
   cursor: pointer;
 }
