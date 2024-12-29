@@ -680,6 +680,11 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
 }
 
+.contactform {
+  background-color: #808080;
+  border-radius: 5px;
+  padding: 20px;
+}
                                                                    /*INFO PAGE*/
 	
 .info {
