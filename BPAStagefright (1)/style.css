@@ -690,6 +690,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: #000;
+  font-family: 'good times';
   color: white;
   padding: 18px 30px;
   border: none;
@@ -700,7 +701,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
-  font-family: 'good times';
   border: 2px solid black,
                                                                    /*INFO PAGE*/
 	
