@@ -138,7 +138,7 @@ color: #151515;
   width: 20%;
 }
 
-/*THE WORLD TOUR*/
+                                                                 /*THE WORLD TOUR*/
 
 #worldTour {
   z-index: 0;
@@ -182,7 +182,7 @@ color: #151515;
 
 
 
-/*NEW MERCH SHOP*/
+                                                                 /*NEW MERCH SHOP*/
 
 #newMerch {
   z-index: 1;
@@ -213,7 +213,7 @@ color: #151515;
   margin-left: 5%;
 }
 
-/*Schedule Page*/
+                                                                 /*SCHEDULE PAGE*/
 
 .scheduleheader {
   text-align: center;
@@ -317,7 +317,7 @@ color: #151515;
   background: url('Images/JeanBackground.png');
 }
 
-/*                          OLD DESIGN
+                                                                    /*OLD DESIGN
 
 .scheduletable {
   width: 90%;
@@ -412,7 +412,7 @@ table.newMerchShop {
   margin: none;
 }
 
-/*BLACK SHIRT*/
+                                                                  /*BLACK SHIRT*/
 
 .newMerchShop .BlackTShirt {
   width: 90%;
@@ -444,7 +444,7 @@ table.newMerchShop {
   margin-right: 3vw;
 }
 
-/*MAROON SHIRT*/
+                                                                  /*MAROON SHIRT*/
 
 .newMerchShop .MaroonTShirt {
   width: 90%;
@@ -476,7 +476,7 @@ table.newMerchShop {
   margin-right: 3vw;
 }
 
-/*NAVY SHIRT*/
+                                                                   /*NAVY SHIRT*/
 
 .newMerchShop .NavyTShirt {
   width: 90%;
@@ -508,7 +508,7 @@ table.newMerchShop {
   margin-right: 3vw;
 }
 
-/*RED SHIRT*/
+                                                                   /*RED SHIRT*/
 
 .newMerchShop .RedTShirt {
   width: 90%;
@@ -540,7 +540,7 @@ table.newMerchShop {
   margin-right: 3vw;
 }
 
-/*MIDNIGHT SHIRT*/
+                                                                /*MIDNIGHT SHIRT*/
 
 .newMerchShop .MidnightTShirt {
   width: 90%;
@@ -572,7 +572,7 @@ table.newMerchShop {
   margin-right: 3vw;
 }
 
-/*SHOP BUTTON*/
+                                                                   /*SHOP BUTTON*/
 
 .sendToShop h4 {
   font-family: 'good times';
@@ -649,33 +649,41 @@ table.bandMemberPictures {
   text-align: center;
 }
 
+                                                                /*CONTACT US PAGE*/
+.contacthead {
+  text-align: center;
+  padding-top: 
+}
+	
 .contact {
-	display: block;
-	text-align: center;
-	padding-top: 15vh;
+  display: block;
+  text-align: center;
+  padding-top: 15vh;
 }
 
 .contact h3 {
-	padding: 5vh;
+  padding: 5vh;
 }
 
 .contact p {
-	padding: 1vh;
-	white-space: nowrap;
+  padding: 1vh;
+  white-space: nowrap;
 }
 
+                                                                   /*INFO PAGE*/
+	
 .info {
-	padding-top: 15vh;
+  padding-top: 15vh;
 }
 
 .section {
-    margin: 20px;
+  margin: 20px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 @media (max-width: 1000px) {
