@@ -693,7 +693,6 @@ input[type=submit] {
   font-family: 'good times';
   color: white;
   padding: 18px 30px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
 }
