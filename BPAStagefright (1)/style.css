@@ -674,7 +674,7 @@ table.bandMemberPictures {
   background-color: #f1f3f9;
   border-radius: 5px;
   padding: 20px;
-  margin: 16.7;
+  margin: 16.7vw;
 }
 
 input[type=text], select, textarea {
@@ -693,7 +693,8 @@ input[type=submit] {
   font-family: 'good times';
   font-size: 25px;
   color: white;
-  padding: 28px 48px;
+  padding: 28px;
+  width: 100%;
   border-radius: 4px;
   cursor: pointer;
 }
