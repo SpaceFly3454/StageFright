@@ -678,10 +678,11 @@ input[type=text], select, textarea {
   box-sizing: border-box; 
   margin-top: 6px; 
   margin-bottom: 16px; 
+  resize: vertical;
 }
 
 .contactform {
-  background-color: #808080;
+  background-color: #8f96a3;
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
