@@ -700,6 +700,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
+  font-family: 'good times';
   border: 2px solid black,
                                                                    /*INFO PAGE*/
 	
