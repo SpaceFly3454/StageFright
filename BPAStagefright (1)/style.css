@@ -700,7 +700,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
-  border: 2px solid black,
+  border: 2px solid black;
                                                                    /*INFO PAGE*/
 	
 .info {
