@@ -701,8 +701,8 @@ input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
+  box-shadow: 10px 10px;
                                                                    /*INFO PAGE*/
-	
 .info {
   padding-top: 15vh;
 }
