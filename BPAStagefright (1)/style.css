@@ -692,9 +692,9 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-/*option:first-of-type {
+option:first-of-type {
   display: none;
-}*/
+}
 
 input[type=submit] {
   background-color: #000;
@@ -834,7 +834,7 @@ input[type=submit]:hover {
 }
 
 .amount-input {
-    width: 10vw
+    width: 10vw;
 }
 
 .store-main-h1 {
@@ -997,28 +997,28 @@ table.meetTheBand {
 
 #armondInfo {
  	width: 10%;
-	height: 80%
+	height: 80%;
   	z-index: 0;
   	margin: 10%;
 }
 
 #jaceInfo {
   	width: 10%;
-	height: 80%
+	height: 80%;
   	z-index: 0;
   	margin: 10%;
 }
 
 #landonInfo {
   	width: 10%;
-	height: 80%
+	height: 80%;
   	z-index: 0;
   	margin: 10%;
 }
 
 #brandonInfo {
   	width: 10%;
-	height: 80%
+	height: 80%;
   	z-index: 0;
   	margin: 10%;
 }
