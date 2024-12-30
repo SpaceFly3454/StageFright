@@ -680,7 +680,7 @@ table.bandMemberPictures {
   margin-left: 16.7vw;
   margin-right: 16.7vw;
 }
-/*
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -691,7 +691,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical;
 }
-
+/*
 option:first-of-type {
   display: none;
 }
