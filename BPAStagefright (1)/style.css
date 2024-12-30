@@ -691,11 +691,11 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical;
 }
-/*
+
 option:first-of-type {
   display: none;
 }
-
+/*
 input[type=submit] {
   background-color: #000;
   font-family: 'good times';
