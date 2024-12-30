@@ -699,9 +699,9 @@ option:first-of-type {
 input[type=submit] {
   background-color: #000;
   font-family: 'good times';
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  padding: 22px;
+  padding: 18px;
   width: 100%;
   border-radius: 4px;
   cursor: pointer;
