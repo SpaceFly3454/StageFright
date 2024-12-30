@@ -707,7 +707,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.contactform input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
