@@ -695,14 +695,10 @@ option:first-of-type {
   display: none;
 }
 
-.fop {
-  color: #808080;
-}
-
 input[type=submit] {
   background-color: #000;
   font-family: 'good times';
-  font-size: 200px;
+  font-size: 20px;
   color: white;
   padding: 18px;
   width: 100%;
