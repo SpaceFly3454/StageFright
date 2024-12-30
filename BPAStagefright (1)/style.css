@@ -692,9 +692,9 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-option:first-of-type {
+/*option:first-of-type {
   display: none;
-}
+}*/
 
 input[type=submit] {
   background-color: #000;
