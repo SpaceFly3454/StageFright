@@ -995,29 +995,29 @@ table.meetTheBand {
 }
 
 #armondInfo {
- 	width: 80%;
-	height:80%
+ 	width: 10%;
+	height: 80%
   	z-index: 0;
   	margin: 10%;
 }
 
 #jaceInfo {
-  	width: 80%;
-	height:80%
+  	width: 10%;
+	height: 80%
   	z-index: 0;
   	margin: 10%;
 }
 
 #landonInfo {
-  	width: 80%;
-	height:80%
+  	width: 10%;
+	height: 80%
   	z-index: 0;
   	margin: 10%;
 }
 
 #brandonInfo {
-  	width: 80%;
-	height:80%
+  	width: 10%;
+	height: 80%
   	z-index: 0;
   	margin: 10%;
 }
