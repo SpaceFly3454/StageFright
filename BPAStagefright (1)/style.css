@@ -693,6 +693,9 @@ input[type=text], select, textarea {
 
 option:first-of-type {
   display: none;
+}
+
+.1op {
   color: #808080;
 }
 
