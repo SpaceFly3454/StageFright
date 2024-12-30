@@ -693,6 +693,7 @@ input[type=text], select, textarea {
 
 option:first-of-type {
   display: none;
+  color: #808080;
 }
 
 input[type=submit] {
