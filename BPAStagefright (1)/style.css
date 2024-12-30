@@ -674,7 +674,10 @@ table.bandMemberPictures {
   background-color: #f1f3f9;
   border-radius: 5px;
   padding: 40px;
-  margin: 20px, 16.7vw;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 16.7vw;
+  margin-right: 16.7vw;
 }
 
 input[type=text], select, textarea {
