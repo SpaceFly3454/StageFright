@@ -1026,3 +1026,8 @@ table.meetTheBand {
 	width: auto;
 	margin: 40%;
 }
+                                                                 /*BUG FIX*/
+img {
+  max-width: 100%;
+  height: auto; /* Maintains aspect ratio */
+}
