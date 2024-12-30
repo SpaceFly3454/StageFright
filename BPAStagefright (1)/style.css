@@ -695,7 +695,7 @@ input[type=text], select, textarea {
 option:first-of-type {
   display: none;
 }
-/*
+
 input[type=submit] {
   background-color: #000;
   font-family: 'good times';
@@ -706,7 +706,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/*
 input[type=submit]:hover {
   background-color: #ffffff;
   color: black;
