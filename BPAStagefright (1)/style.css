@@ -711,10 +711,10 @@ input[type=button] {
 }
 /*                                                         PROBLEM CODE!!!!!!!!!!!!!!!!!*/
 input[type=button]:hover {
-  background-color: #ffffff;
+/*  background-color: #ffffff;*/
   color: black;
   border: 2px solid black;
-  box-shadow: 7px 7px 0px 5px;
+  box-shadow: 7px 7px 0px 10px;
                                                                    /*INFO PAGE*/
 .info {
   padding-top: 15vh;
