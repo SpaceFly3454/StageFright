@@ -154,9 +154,9 @@ const firstNumber = value.slice(0, 1);
 //CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE
 
 function openPopup() {
-    document.getElementById(contactPopup).style.display = 'block';
+    document.getElementById('contactPopup').style.display = 'block';
 }
 
 function closePopup() {
-    document.getElementById(contactPopup).style.display = 'none';
+    document.getElementById('contactPopup').style.display = 'none';
 }
