@@ -722,8 +722,6 @@ option:first-of-type {
   position: fixed;
   content-align: center;
   z-index: 1;
-  left: 0;
-  top: 0;
   width: 33%;
   height: auto;
   background-color: black;
