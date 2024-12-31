@@ -720,9 +720,11 @@ option:first-of-type {
 .popup {
   display: none;
   position: fixed;
-  content-align: center;
+  text-align: center;
   z-index: 1;
   width: 33%;
+  margin-left: 33.5%
+  margin-right: 33.5%
   height: auto;
   background-color: black;
 }
