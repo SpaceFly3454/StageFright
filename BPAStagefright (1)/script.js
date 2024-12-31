@@ -1,4 +1,5 @@
 //SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE 
+
 if(document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -149,3 +150,13 @@ const firstNumber = value.slice(0, 1);
 		cardImage.style.backgroundImage = 'none';
 	}
 });
+
+//CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE - CONTNACT PAGE
+
+function openPopup() {
+    document.getElementById(contactPopup).style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById(contactPopup).style.display = 'none';
+}
