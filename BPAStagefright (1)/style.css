@@ -722,6 +722,7 @@ option:first-of-type {
   position: fixed;
   text-align: center;
   z-index: 1;
+  top: 0;
   width: 33%;
   margin-left: 33.5%;
   margin-right: 33.5%;
