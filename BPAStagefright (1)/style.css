@@ -733,7 +733,7 @@ option:first-of-type {
 
 .popcontent {
   background-color: #fefefe;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
   border: 1px solid #888;
   width: 60%;
