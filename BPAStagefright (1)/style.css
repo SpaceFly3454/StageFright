@@ -709,7 +709,7 @@ input[type=button] {
   border-radius: 4px;
   cursor: pointer;
 }
-/*                                                         PROBLEM CODE!!!!!!!!!!!!!!!!!*/
+
 input[type=button]:hover {
   background-color: #ffffff;
   color: black;
