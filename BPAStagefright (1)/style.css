@@ -732,8 +732,8 @@ option:first-of-type {
 
 .popcontent {
   background-color: #fefefe;
-  margin: 15% auto;
-  padding: 12px, 20px;
+  margin: 25% auto;
+  padding: 10px;
   border: 1px solid #888;
   width: 60%;
 }
