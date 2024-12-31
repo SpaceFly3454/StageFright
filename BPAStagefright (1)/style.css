@@ -720,6 +720,7 @@ option:first-of-type {
 .popup {
   display: none;
   position: fixed;
+  content-align: center;
   z-index: 1;
   left: 0;
   top: 0;
