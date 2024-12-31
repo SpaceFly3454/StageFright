@@ -51,8 +51,14 @@
         </select>
         <label for="msg">Message</label>
         <textarea type="text" id="msg" name="message" placeholder="Write Your Message..." style="height:200px"></textarea>
-        <input type="button" value="Send">
+        <input type="button" value="Send" onclick="openPopup()">
       </form>
+    </div>
+    <div id=contactPopup class="popup">
+      <div class=popcontent>
+        <span class="close" onclick="closePopup()">&times;</span>
+        <p>Sent! Thank you for your message!</p>
+      </div>
     </div>
   </body>
   <footer class="footer">
