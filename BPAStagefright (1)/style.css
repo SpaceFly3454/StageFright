@@ -228,7 +228,6 @@ color: #151515;
   font-family: 'Good Times';
   color: #F0F0F0;
   font-size: 20px;
-  bottom-margin: 100px;
 }
 
 .schedheads {
@@ -710,7 +709,7 @@ input[type=button] {
   border-radius: 4px;
   cursor: pointer;
 }
-/*                                                         PROBLEM CODE!!!!!!!!!!!!!!!!!
+/*                                                         PROBLEM CODE!!!!!!!!!!!!!!!!!*/
 input[type=button]:hover {
   background-color: #ffffff;
   color: black;
