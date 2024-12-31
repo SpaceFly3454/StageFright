@@ -699,7 +699,7 @@ option:first-of-type {
   display: none;
 }
 
-input[type=button] {
+.conform {
   background-color: #000;
   font-family: 'good times';
   font-size: 20px;
@@ -710,7 +710,7 @@ input[type=button] {
   cursor: pointer;
 }
 
-input[type=button]:hover {
+.conform:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
