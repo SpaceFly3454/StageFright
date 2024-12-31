@@ -1,3 +1,4 @@
+//SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE - SHOP PAGE 
 if(document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
