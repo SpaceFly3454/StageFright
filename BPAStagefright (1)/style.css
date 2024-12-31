@@ -696,7 +696,7 @@ option:first-of-type {
   display: none;
 }
 
-input[type=submit] {
+input[type=button] {
   background-color: #000;
   font-family: 'good times';
   font-size: 20px;
@@ -707,7 +707,7 @@ input[type=submit] {
   cursor: pointer;
 }
 /*                                                         PROBLEM CODE!!!!!!!!!!!!!!!!!
-input[type=submit]:hover {
+input[type=button]:hover {
   background-color: #ffffff;
   color: black;
   border: 2px solid black;
