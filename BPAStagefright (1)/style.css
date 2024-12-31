@@ -318,6 +318,10 @@ color: #151515;
   background: url('Images/JeanBackground.png');
 }
 
+.schedfoot {
+  top-margin: 10px;
+}
+
                                                                     /*OLD DESIGN
 
 .scheduletable {
