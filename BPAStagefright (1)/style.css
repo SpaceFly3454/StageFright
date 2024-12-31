@@ -728,6 +728,7 @@ option:first-of-type {
   width: 50%;
   height: auto;
   background-color: black;
+  border-radius: 5px;
 }
 
 .popcontent {
